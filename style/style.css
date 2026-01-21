@@ -24,6 +24,9 @@ nav{
     align-items: center;
 
 }
+nav img{
+    display: none;
+}
 nav li{
     list-style: none;
    
@@ -78,6 +81,7 @@ span{
     width: 350px;
     height: 350px;
    background-image: url('../images/hero-circle.png');
+   background-repeat: no-repeat;
    display: flex;
   justify-content: center;
   align-items: center;
@@ -381,8 +385,13 @@ margin-top: 10px;
 }
 .icons{
     display: flex;
-    gap: 70px;
+    gap: 80px;
     margin-bottom: 20px;
+    justify-content: center;
+}
+.d-1{
+    display: flex;
+    gap: 80px;
 }
 .prant{
     width: 450px;
@@ -393,28 +402,229 @@ margin-top: 10px;
 }
 
 
+
+
+
+
+
+
 @media screen and (max-width:576px) {
 
 
     nav{
     
-    width: 400px;
-    max-width:400px ;
+    width: 440px;
+   height: 60px;
     height:80px;
-  
-   flex-direction: column;
+  background-color:hsl(265, 90%, 15%);
+   
+   margin-bottom:20px;
 
+}
+nav img{
+    display: flex;
 }
 nav ul{
     display:none;
     gap: 50px;
 }
-.btn{
- display: none;
+nav button{
+display: none;
 }
+
+.top-container{
+    width: 440px;
+    height: 466px;
+     background-size: 100% ;
+     position: relative;
+    
+     
+   
+}
+.banar-container{
+    padding: 0;
+    width: 400px;
+    height: 386px;
+  
+   
+   
+}
+
+.banar-img{
+    width: 200px;
+    height: 200px;
+    background-size: 100%;
+   
+}
+.banar-img img{
+    width: 46px;
+    height: 70px;
+  
+}
+.g-btn{
+    position: absolute;
+    top:5%;
+    right:35%;
+}
+.banar-contant p{
+    
+    margin-bottom:1px;
+
+}
+
+.about-num-con{
+    width:440px;
+   margin-left: 1px;
+    margin-top: 0;
+   
+}
+
+.about-con{
+width: 400px;
+margin: 0 auto;
+text-align: center;
+height: 230px;
+ margin-bottom: 0px;
+ 
+
+}
+
+.card-con{
+    width: 400px;
+    display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   text-align: center;
+   gap: 20px;
+    justify-content: space-between;
+    height: 200px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+   
+   
+   
+
+}
+.about-num-con h1{
+    color: #00FF88;
+    margin-bottom: 16px;
+}
+.about-con .p2{
+padding-top:1px;
+}
+
+.grid-card-container{
+    width: 440px;
+}
+
+.cird-continer2{
+      width: 400px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+   padding: 0px;
+    margin: 0  auto;
+    gap: 20px;
+  
+
+}
+.card-2{
+    width:400px;
+   
+    padding-top: 50px;
+   margin-left: 0;
+    padding-bottom: 80px;
+    box-shadow: 5px 1px 0 dark;
+    background-color: #412567;
+    border-radius: 20px;
+   
+   
+}
+.grid-contant h2{
+    font-size: 30px;
+    padding: 10px;
+    font-weight: bold;
+}
+.video-item{
+    width: 440px;
+     margin: 0px;
+     margin-top: 40px;
+}
+
+.video-card-container{
+   flex-direction: column    ;
+   gap: 20px;
+   padding: 20px;
+}
+.alex{
+    width: 400px;
+    border-radius: 0px;
+     margin: 0px;
+     background-color:  hsl(265, 90%, 15%);;
+}
+.alex-container{
+    width: 400px;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    background-color: #412567;
+    border-radius: 10px;
+
+}
+.a-img{
+   display: flex;
+align-items: center;
+justify-content: center;
+gap: 20px;
+margin-top: 10px;
+}
+.foot{
+   
+  width: 440px;
+    height: 200px;
+   
+  
+}
+.prant{
+    width: 400px;
+    margin: 0 auto;
+    padding-top:10px;
+    text-align: center;
+}
+.foot h1{
+    margin: 0px;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.icons{
+    display: flex;
+    gap:10px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+.d-1{
+    display: block;
+    
+   
+}
+.icons p{
+    margin-bottom: 10px;
 }
 
 
+
+}
+
+
+    
+
+
+    /* .banar-img{
+    width: 350px;
+    height: 350px;
+   background-image: url('../images/hero-circle.png');
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto; */
 
 
 
